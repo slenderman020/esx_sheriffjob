@@ -1,6 +1,6 @@
-# esx_policejob
+# esx_sheriffjob
 
-This resource for ESX adds police armories, vehicle garages and ability for cops to search, handcuff people and much more.
+This resource for ESX adds sheriff armories, vehicle garages and ability for cops to search, handcuff people and much more.
 
 ### Requirements
 * Auto mode
@@ -23,28 +23,23 @@ This resource for ESX adds police armories, vehicle garages and ability for cops
 
 ## Download & Installation
 
-### Using [fvm](https://github.com/qlaffont/fvm-installer)
-```
-fvm install --save --folder=esx esx-org/esx_policejob
-```
-
 ### Using Git
 ```
 cd resources
-git clone https://github.com/ESX-Org/esx_policejob [esx]/esx_policejob
+git clone https://github.com/slenderman020/esx_sheriffjob [esx]/esx_sheriffjob
 ```
 
 ### Manually
-- Download https://github.com/ESX-Org/esx_policejob/archive/master.zip
+- Download https://github.com/slenderman020/esx_sheriffjob/archive/master.zip
 - Put it in the `[esx]` directory
 
 
 ## Installation
-- Import `esx_policejob.sql` in your database
+- Import `esx_sheriffjob.sql` in your database
 - Add this to your server.cfg:
 
 ```
-start esx_policejob
+start esx_sheriffjob
 ```
 
 -  * If you want player management you have to set `Config.EnablePlayerManagement` to `true` in `config.lua`
@@ -54,12 +49,4 @@ start esx_policejob
 
 # Legal
 ### License
-esx_policejob - police script for ESX
-
-Copyright (C) 2015-2020 Jérémie N'gadi
-
-This program Is free software: you can redistribute it And/Or modify it under the terms Of the GNU General Public License As published by the Free Software Foundation, either version 3 Of the License, Or (at your option) any later version.
-
-This program Is distributed In the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty Of MERCHANTABILITY Or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License For more details.
-
-You should have received a copy Of the GNU General Public License along with this program. If Not, see http://www.gnu.org/licenses/.
+esx_sheriffjob - sheriff script for ESX
